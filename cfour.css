@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    background-image: url("stars.jpg");
+}
+
+body {
+    margin: 50px;
+}
+
+#board {
+    display: flex;
+}
+
+.slot {
+    width: 100px;
+    height: 100px;
+    background: goldenrod;
+}
+
+.bar {
+    width: 700px;
+    height: 20px;
+    position: absolute;
+    top: 30px;
+    background: goldenrod;
+}
+
+.hole {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: antiquewhite;
+    margin-left: 10px;
+}
+
+.player1 .hole {
+    background: #993333;
+}
+
+.player2 .hole {
+    background: #260d0d;
+}
+
+.win {
+    background: #233343;
+    position: absolute;
+    visibility: hidden;
+    width: 690px;
+    height: 600px;
+    left: 60px;
+    top: 40px;
+    vertical-align: top;
+    border-radius: 10px;
+    padding: 20px 20px;
+    border: 20px solid antiquewhite;
+    font-size: 40px;
+    font-family: arial;
+    text-align: center;
+    padding-top: 250px;
+    color: antiquewhite;
+}
+
+.reset {
+    background: antiquewhite;
+    position: fixed;
+    z-index: 2;
+    visibility: hidden;
+    width: 100px;
+    height: 100px;
+    top: 500px;
+    left: 600px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-family: arial;
+    text-align: center;
+    color: #233343;
+    padding-top: 35px;
+    cursor: pointer;
+}
+
+.cool {
+    visibility: hidden;
+    background-image: url("cool.jpg");
+    background-size: 400px 400px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    left: 900px;
+    border-radius: 10%;
+}
+
+.cool2 {
+    background: #233343;
+    visibility: hidden;
+    width: 400px;
+    position: absolute;
+    top: 460px;
+    left: 900px;
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.geek {
+    visibility: hidden;
+    background-image: url("smart.jpg");
+    background-size: 400px 400px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    left: 900px;
+    border-radius: 10%;
+}
+
+.geek2 {
+    background: #233343;
+    visibility: hidden;
+    width: 400px;
+    position: absolute;
+    top: 460px;
+    left: 900px;
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.demo {
+    background: #993333;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 540px;
+    left: 1280px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.fireworks {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
